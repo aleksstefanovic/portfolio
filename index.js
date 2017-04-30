@@ -66,5 +66,8 @@ app.get('/portfolio.css', function (req, res) {
 app.get('/aboutme.css', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/aboutme.css'));
 });
+app.get('/workpages/software1.css', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/workpages/software1.css'));
+});
 
 app.listen(3000);
