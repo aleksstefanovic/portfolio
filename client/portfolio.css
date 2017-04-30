@@ -37,6 +37,11 @@ footer {
     font-family: Calibri;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 form {
     padding: 5px 5px;
 }
@@ -88,6 +93,24 @@ div.section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+div.left {
+    text-align: left;
+}
+
+div.right {
+    text-align: right;
+}
+
+div.right h1 {
+    padding: 0.5%;
+    margin-right:50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
 
 @media only screen and (max-width: 720px) {
     body {

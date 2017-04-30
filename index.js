@@ -25,9 +25,31 @@ app.get('/projects.html', function (req, res) {
 app.get('/imports/nav.html', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/imports/nav.html'));
 });
+app.get('/workpages/software1.html', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/workpages/software1.html'));
+});
+app.get('/workpages/software2.html', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/workpages/software2.html'));
+});
+app.get('/workpages/other.html', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/workpages/other.html'));
+});
 
+
+app.get('/media/linkedin.png', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/media/linkedin.png'));
+});
 app.get('/media/portfolio.png', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/media/portfolio.png'));
+});
+app.get('/media/profile.png', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/media/profile.png'));
+});
+app.get('/media/resume.pdf', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/media/Resume.pdf'));
+});
+app.get('/media/hackingHealth.pdf', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/media/hackingHealth.pdf'));
 });
 
 app.get('/portfolio.js', function (req, res) {
@@ -40,6 +62,9 @@ app.get('/imports/nav.css', function (req, res) {
 });
 app.get('/portfolio.css', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/portfolio.css'));
+});
+app.get('/aboutme.css', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/aboutme.css'));
 });
 
 app.listen(3000);
