@@ -37,9 +37,38 @@ footer {
     font-family: Calibri;
 }
 
-.wrapper {
-    height: 100%;
+form {
+    padding: 5px 5px;
 }
+
+input {
+   width:500px;
+    height:25px;
+   border-color: #778899;  
+   border-width: 5px;
+   text-decoration: none;
+   margin: 5px 5px;
+   font-family: Calibri;
+   font-size: 1em;
+}
+
+textarea {
+    border-color: #778899;  
+    border-width: 5px;
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    font-family: Calibri;
+    font-size: 1em;
+    width: 90%;
+    height: 300px;
+}
+
+#contactsubmit {
+    margin-left: 45%;
+    height: 50px;
+    width: 100px;
+}
+
 
 div.section {
     padding: 1%;
@@ -67,10 +96,17 @@ div.section {
     div.section {
         margin:0;
     }
+    #contactsubmit {
+        margin-left: 40%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     h1 {
         margin-right: 0;
     }    
+    input {
+       width:75%;
+        height:25px;
+    }
 }

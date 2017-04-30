@@ -11,7 +11,7 @@
     <div id="nav"></div>
     <div class="section">
         <h1>Contact</h1>
-        <form action="/contact" method="post">
+        <form id="contactform" action="/contact" onsubmit="return validateContact()" method="post">
             Name: 
             <br>
             <input type="text" name="name" value="">
@@ -22,9 +22,9 @@
             <br>
             Body: 
             <br>
-            <textarea name="body" cols="100" rows="40"></textarea>
+            <textarea name="body"></textarea>
             <br>
-            <input type="submit" value="Send">
+            <input id="contactsubmit" type="submit" value="Send">
         </form>
     </div>
     <div class="parallax"></div>
