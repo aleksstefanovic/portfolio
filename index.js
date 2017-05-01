@@ -2,6 +2,8 @@ var express = require('express');
 var app = express();
 var path = require("path");
 
+app.set('port', (process.env.PORT || 5000));
+
 //reminder for myself to actually publish the folders instead of individual files. This site got too big.
 
 app.post('/contact', function (req, res) {
@@ -92,4 +94,6 @@ app.get('/workpages/other.css', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/workpages/other.css'));
 });
 
-app.listen(3000);
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
