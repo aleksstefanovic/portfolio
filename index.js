@@ -43,12 +43,15 @@ app.get('/media/DeusVult.jpg', function (req, res) {
 app.get('/media/linkedin.png', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/media/linkedin.png'));
 });
+app.get('/media/youtube.png', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/media/youtube.png'));
+});
 app.get('/media/portfolio.png', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/media/portfolio.png'));
 });
-app.get('/media/profile.png', function (req, res) {
+/*app.get('/media/profile.png', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/media/profile.png'));
-});
+});*/
 app.get('/media/resume.pdf', function (req, res) {
     res.sendFile(path.join(__dirname+'/client/media/Resume.pdf'));
 });
