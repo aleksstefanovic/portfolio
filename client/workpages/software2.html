@@ -16,10 +16,32 @@
     <div class="section">
 
         <div class="left">
-        <h1>Pandora Virtual Assisstant</h1>
+        <h1>Pandora Virtual Assistant</h1>
         <p>
-
+            A hobby project, <a class="textlink" href="http://pandora0.herokuapp.com">Pandora</a> is a simple cloud based virtual assistant built on nodejs. Hosted on the free service 
+            <a class="textlink" href="https://www.heroku.com/home">Heroku</a> , she is comprised by three major components. A Postgres database provides storage of data, an express web server to host the 
+            REST API, and the actual API itself written in nodejs. To interface with Pandora, I have built a simple android app with voice recognition that will make the appropriate web service calls to
+            the site to interpret the user's query. Currently she only knows a few basic commands. In addition to the above, I have built into her the ability to respond with the current temperature of my
+            home. This was done with a very basic circuit, combining a temperature sensor and an arduino to transmit the data to a local PC, which updates Pandora's Postgres database.  You can find all the
+            source code below:
         </p>
+        <div id="pandorabuttons">
+            <form action="https://bitbucket.org/aleksandar_stefanovic/pandora">
+                <input class="button" type="submit" value="Pandora Web App Repo"/>
+            </form>
+            <form action="https://bitbucket.org/aleksandar_stefanovic/pandoraandroid">
+                <input class="button" type="submit" value="Pandora Android App Repo"/>
+            </form>
+            <form action="/media/pandora.apk">
+                <input class="button" type="submit" value="Download Pandora APK"/>
+            </form>
+            <form action="https://bitbucket.org/aleksandar_stefanovic/readtemp">
+                <input class="button" type="submit" value="Update Temperature Repo"/>
+            </form>
+            <form action="https://bitbucket.org/aleksandar_stefanovic/tempsensor">
+                <input class="button" type="submit" value="Read Temperature Sensor Repo"/>
+            </form>
+        </div>
         </div>
 
         <br>
@@ -27,51 +49,84 @@
         <div class="right">
         <h1>The Peckol Prevention Project</h1>
         <p>
-
+            A comedic website built out of solely Microsoft technologies. Built with C# and ASP.NET, using Microsoft SQL, and hosted on the Azure platform. It tells the story
+            of a fictional character who is constantly on the search for students who break coding best practice. The website is fully functional with fake store and user
+            accounts. Check it out at <a class="textlink" href="http://peckolpreventionproject.azurewebsites.net">peckolpreventionproject.azurewebsites.net</a>
         </p>
+        <form action="https://bitbucket.org/aleksandar_stefanovic/pekol">
+            <input class="button" type="submit" value="Peckol Repo"/>
+        </form>
         </div>
 
         <br>
 
-        <div class="right">
+        <div class="left">
         <h1>Speech Recognition Mimic</h1>
         <p>
-            
+           A basic earlier prototype of Pandora (mentioned above on this page). It is a simple android app that can record and then play back whatever is spoken to it. Written
+            entirely in java.
         </p>
-        </div>
-
-        <br>
-
-        <div class="left">
-        <h1>Java ISBN Database Project</h1>
-        <p>
-            
-        </p>
+        <form action="https://bitbucket.org/aleksandar_stefanovic/yeni">
+            <input class="button" type="submit" value="Speech Mimic Repo"/>
+        </form>
+        <form action="/media/mimic.apk">
+            <input class="button" type="submit" value="Speech Mimic APK"/>
+        </form>
         </div>
 
         <br>
 
         <div class="right">
-        <h1>Python Text RPG Game</h1>
+        <h1>Java ISBN Database Project</h1>
         <p>
-            
+           One of my first java programs. Its has a very simple purpose, to keep track of books and their ISBN numbers through a series of files. Through a commandline 
+            interface, a user can update, add, and remove books. It essentially behaves like a very simple library book-keeping software. 
         </p>
+        <form action="https://bitbucket.org/aleksandar_stefanovic/javaisbn">
+            <input class="button" type="submit" value="Java ISBN Repo"/>
+        </form>
         </div>
 
         <br>
 
         <div class="left">
-        <h1>Python Two Player Sudoku</h1>
+        <h1>Python Text RPG Game</h1>
         <p>
-            
+           A fun little python commandline RPG game I worked on when first learning python. One of my earliest, yet more complex python scripts.
         </p>
+        <form action="https://bitbucket.org/aleksandar_stefanovic/pythonrpg">
+            <input class="button" type="submit" value="Python RPG Repo"/>
+        </form>
         </div>
+
+        <br>
+
+        <div class="right">
+        <h1>Video Game "sudo"</h1>
+        <p>
+           A hobby project currently in development, it is a deceptively simple three-dimensional realtime strategy game for PC. With minimalistic graphics, a huge amount of
+            variety and strategy, as well as fast-paced multi-task heavy gameplay, sudo (named after "super user do" in linux systems) is meant to be an evolution of the 
+            genre pioneered by games such as Starcraft, Warcraft, Age of Empires, etc. It is being developed in Unity, using a mixture of built in tools and C#. An 
+            unfinished (and unplayable) prototype can be built from source below. This project is the reincarnation of a number of other failed game related projects done in 
+            CryEngine, Unreal Engine, and Starcraft 2 Game Editor. 
+        </p>
+        <form action="https://bitbucket.org/aleksandar_stefanovic/sudo">
+            <input class="button" type="submit" value="Sudo Repo"/>
+        </form>
+        </div>
+
+        <br>
 
         <div class="right">
         <h1>Starcraft 2 Video Game Modding</h1>
         <p>
-            
+           One of my first introductions into programming, Starcraft 2 was a realtime strategy game, sequel to the legendary original Starcraft. The game was sold with a 
+           game editor, which allowed anyone to modify the game's source code and make changes or even entirely different games. Spending many hundreds of hours in this 
+            editor taught me many of the fundamentals of computer programming and logic. Below is included two examples from a large pool of many projects I worked on.
         </p>
+        <form action="https://bitbucket.org/aleksandar_stefanovic/sc2">
+            <input class="button" type="submit" value="Starcraft 2 Repo"/>
+        </form>
         </div>
 
     </div>

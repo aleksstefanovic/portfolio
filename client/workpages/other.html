@@ -6,58 +6,114 @@
     <link rel="stylesheet" href="/workpages/software1.css" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="/portfolio.js"></script>
-    <title>Portfolio - Frontend/Backend</title>
+    <title>Portfolio - Other Work</title>
 </head>
 <body>
     <div id="nav"></div>
     <div class="section">
-        <h1>Frontend/Backend</h1>
+        <h1>Other Work</h1>
     </div>
     <div class="section">
+        <div class="left">
+        <h1>Smart Home Prototype</h1>
+        <p>
+           One of the earliest prototypes of what I now refer to as <a class="textlink" href="/workpages/software1.html">Pandora</a>, Yeni (Youthful Energetic Natural 
+            Intelligence) was a mishmash different scripts. Yeni could read the temperature and respond to basic questions similar to Pandora. Some key differences included
+            that Yeni was a local piece of software that ran off a usb, and she was primarily coded in a weird combination of C (for arduino) and Visual Basic. Yeni also used
+            a specific text-to-speech API, known as <a class="textlink" href="https://www.ivona.com">Ivona</a>. The eventual goal of Yeni was to be able to control parts of
+            a home, through hardware and mechanical devices connected through WiFi.
+        </p>
+        </div>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/dLRxu_7qL0s"></iframe>
+        <form action="https://bitbucket.org/aleksandar_stefanovic/projectyeni">
+            <input class="button" type="submit" value="Project Yeni Repo"/>
+        </form>
+        <br>
+
+        <div class="right">
+        <h1>Utility Glove</h1>
+        <p>
+            The utility glove project was one of my attempts to make something solely using arduino. The concept was a glove that a user wore, which provided a number of 
+            different sensors of the nearby environment and displayed that data onto a connected LCD screen on the user's wrist. The project was abandoned due to its lack of
+            useful practical applications.
+        </p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/XwIkuIbp1lc"></iframe>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/E8hfKxEtIRw"></iframe>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/HUdUM7Llra4"></iframe>
+        </div>
+
+        <br>
 
         <div class="left">
-        <h1>Smartphone Braille Adapter</h1>
+        <h1>Retro Hardware Video Game</h1>
         <p>
-            This was a project I worked on while on a short contract at FCB Toronto. It was a simple 3D printed smartphone case, but instead it went overtop the user's screen, and provided tactile braille
-            feedback for the blind. Different cheap adapters were designed to work for different common and popular apps, but the team also worked on our own basic android apps designed for the adapter.
-            The adapter I designed was fairly simple, in the centre of the plastic buttons was a tiny copper sheet, attached to a copper spring, which touched the screen with another copper sheet. The
-            user needed only to press the button, and similar to regular touch screens, the body's natural current would be conducted through the coper material to interface with the app beneath. We finished
-            a basic prototype, but the project never went into production. 
+           My only project, done with a friend, that was entirely done in hardware. Using the verilog language, and a Field Programmable Gate Array (FPGA), we built a very 
+            basic retro style video game but entirely from the hardware up. This included the design and coding of logic gates for functionality, flip-flops for memory, and  
+            a custom VGA adapter for displaying pixels. The source code is provided below, but since it is only a hardware description, it cannot be compiled like software 
+            onto a user's machine. A FPGA must be used, or the hardware manufactured. 
         </p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/MODMI1A0aoE"></iframe>
         </div>
 
         <br>
 
         <div class="right">
-        <h1>Therapy Virtual Assistant</h1>
+        <h1>Smartphone Computer</h1>
         <p>
-            Working with a small Toronto startup, Distrupt.TO, the team entered the Hacking Health Toronto 2015 competition. Our product was known as the LifeNode Project, a webapp that assisted 
-            mental healthcare professionals by providing direct communication with their patients at all times and sentiment analysis on their conversations. I worked primarily on the integration between our
-            frontend and backend. Since the entire app was built using the MEAN stack, this meant all integration was through javascript, both client and server side. We won the people's choice award at the
-            contest. 
+           A project currently in development, it revolves around creating an adapter that can turn a smartphone (in this case an LG G5) into a fully functional laptop/desktop
+            replacement. The phone provides memory, cpu, video, and hard disk storage. Running any distribution of linux, all the user need do it plug in a keyboard of any
+            kind and a monitor, and they can perform work they normally do on any normal machine. With the constant increase in the power of smartphones, this is becoming a 
+            very valid option in the near future. Currently only prototype is done, the second stage being building a laptop like "shell" which the phone can plug into to give             the user a full keyboard and monitor to use. 
         </p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/Re9RIOPDceY"></iframe>
+        </div>
 
-        <form action="/media/hackingHealth.pdf">
-            <input id="hackinghealth" type="submit" value="Hacking Health Award"/>
+        <br>
+
+        <div class="left">
+        <h1>Animated Logo Design</h1>
+        <p>
+           It has been a long time entertaining passion of mine to invent fictional companies. At times I have taken steps to create fictional logos and designs for these
+            companies. Below are two examples of animated logos I have made when learning Blender. All visuals and sounds are made entirely by me.
+        </p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/Ude1_O9IUNE"></iframe>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/FxEFL-Pgaa8"></iframe>
+        </div>
+
+        <br>
+
+        <div class="right">
+        <h1>Cyberpunk Book Cover</h1>
+        <p>
+           My only attempt at creating something interesting in Photoshop. A bizarre book cover demonstrating some of the horrors, and disturbing beauty, of a world dominated
+            with advanced human changing technology.
+        </p>
+        <img src="/media/DeusVult.jpg" alt="Deus Vult" height="700" width="500">
+        </div>
+
+        <br>
+
+        <div class="left">
+        <h1>Fictional Company Logo</h1>
+        <p>
+           Another set of fictional company logos similar to what is explained above, but this time done completely in Adobe Illustrator with no animations. The name "Phnks" 
+        is actually meant to be pronounced Phoenix. Its a play on words between the symmetry of "Alex" and "Phoenix"; and "Aleks" and "Phnks". The pdf can be
+            downloaded below: 
+        </p>
+        <form action="/media/phnksLogo.pdf">
+            <input class="button" type="submit" value="Phnks Enterprise Logos"/>
         </form>
         </div>
 
         <br>
 
         <div class="left">
-        <h1>Sears Canada Ecommerce API</h1>
+        <h1>Physics Video Game Machinima</h1>
         <p>
-            
+            Throughout high school I often employed the use of the Starcraft 2 editor to create animated videos for a variety of school projects. This one being for a course 
+            in modern physics, teaches about the weird dilemmas a space faring race may encounter. 
         </p>
-        </div>
-
-        <br>
-
-        <div class="right">
-        <h1>Sears Canada Logistics/WMS Backend</h1>
-        <p>
-            
-        </p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/Hcr4eZvUx9A"></iframe>
         </div>
     </div>
     <div class="parallax"></div>
