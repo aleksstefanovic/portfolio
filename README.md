@@ -1,0 +1,1 @@
+Basic personnal portfolio. Built with static HTML5 and CSS, with a small amount of Javascript and JQuery for functionality. 
